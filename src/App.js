@@ -13,9 +13,9 @@ import AlertState from './context/alert/AlertState';
 import './App.css';
 
 // Class based component rather than functional
+// JSX JavaScript Syntax Extension - (not HTML)
 const App = () => {
   return (
-    // JSX JavaScript Syntax Extension - (not HTML)
     <GithubState>
       <AlertState>
         <Router>
